@@ -6,26 +6,46 @@
 
 
 
-
-
-
-
-body {
-    background-color: #e7e3d7;
-    background-image: url(../img/light_noise_diagonal.png);
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: #e7e3d7;
+    background-image: url(../img/paperptrn.png);
+}
+
+
+
+h1, h2 {
     color: #305d86;
-    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 /*     background-image: url(../img/wood_pattern.png); */
 
+blockquote p {
+    font-size: 1em;
+}
 
+blockquote footer {
+    font-size: .9em;
+}
 
 .jumbotron {
     padding: 0px;
+    background: linear-gradient(rgba(0,0,50,.6),rgba(0,0,50,0.6)), url(../img/typist.jpg);
+    background-position: center; 
+    height: 450px;
+    color: white;
 }
 
 .navbar-default {
@@ -43,6 +63,10 @@ h1, h2 {
     color: white;
     font-size: 1.8em;
     font-weight: bold;
+}
+
+.jumbotron p {
+    font-weight: 300;
 }
 
 .row {
