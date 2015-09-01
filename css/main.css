@@ -49,16 +49,16 @@ blockquote footer {
 }
 
 .navbar-default {
-
+    color: #305d86;
     padding-top: 10px;
 }
 
 .navbar-default .navbar-nav>li>a {
-
+    color: #305d86;
 }
 
 .navbar-default .navbar-brand {
-
+    color: #305d86;
     font-size: 1.8em;
     font-weight: bold;
 }
